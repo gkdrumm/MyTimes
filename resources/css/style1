@@ -12,23 +12,6 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
-header nav {
-  padding-right: 40px;
-}
-
-a {
-  color: black;
-}
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-}
-
-body {
-  margin: 0;
-}
-
 
 .logo {
   display: flex;
@@ -47,6 +30,22 @@ body {
   color: MediumAquamarine;
 }
 
+header nav {
+  padding-right: 40px;
+}
+
+a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+body {
+  margin: 0;
+}
 
 .content {
   display: flex;
@@ -74,9 +73,6 @@ body {
 }
 
 .image-content {
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -152,30 +148,3 @@ img.cookie {
 .bite span {
   padding-left: 11px;
 }
-
-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 325px;
-  background-color: MediumAquamarine;
-  margin: auto;
-  font-family: Verdana;
-  font-size: 12px;
-
-}
- footer .title {
-   display:inline-block;
-   padding-right: 25px;
-   border-right: 2px solid white;
-   font-family: Georgia;
-   font-size: 16px;
-   font-weight: bold;
-   color: white;
- }
- footer nav{
-   display: inline-block;
-   padding-left: 25px;
- }
